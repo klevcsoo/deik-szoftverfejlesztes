@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import components.GateTileComponentImpl?>
+<?import components.TileComponentImpl?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<GridPane xmlns:fx="http://javafx.com/fxml"
+  AnchorPane.bottomAnchor="0"
+  AnchorPane.leftAnchor="0"
+  AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0"
+  alignment="CENTER" gridLinesVisible="true"
+  prefHeight="400.0" prefWidth="600.0"
+  xmlns="http://javafx.com/javafx" fx:controller="controllers.BoardController" fx:id="tileGrid">
+  <GateTileComponentImpl GridPane.columnIndex="4" GridPane.rowIndex="0" colour="BLUE" east="true"
+    north="true"/>
+  <GateTileComponentImpl GridPane.columnIndex="4" GridPane.rowIndex="3" colour="RED" east="true"/>
+  <TileComponentImpl GridPane.columnIndex="0" GridPane.rowIndex="0" north="true" west="true"/>
+  <TileComponentImpl GridPane.columnIndex="0" GridPane.rowIndex="1" west="true"/>
+  <TileComponentImpl GridPane.columnIndex="0" GridPane.rowIndex="2" west="true"/>
+  <TileComponentImpl GridPane.columnIndex="0" GridPane.rowIndex="3" north="true" west="true"/>
+  <TileComponentImpl GridPane.columnIndex="0" GridPane.rowIndex="4" south="true" west="true"/>
+  <TileComponentImpl GridPane.columnIndex="1" GridPane.rowIndex="0" north="true"/>
+  <TileComponentImpl GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+  <TileComponentImpl GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+  <TileComponentImpl GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+  <TileComponentImpl GridPane.columnIndex="1" GridPane.rowIndex="4" south="true"/>
+  <TileComponentImpl GridPane.columnIndex="2" GridPane.rowIndex="0" north="true" west="true"/>
+  <TileComponentImpl GridPane.columnIndex="2" GridPane.rowIndex="1" north="true"/>
+  <TileComponentImpl GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+  <TileComponentImpl GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+  <TileComponentImpl GridPane.columnIndex="2" GridPane.rowIndex="4" north="true" south="true"/>
+  <TileComponentImpl GridPane.columnIndex="3" GridPane.rowIndex="0" north="true"/>
+  <TileComponentImpl GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+  <TileComponentImpl GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+  <TileComponentImpl GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+  <TileComponentImpl GridPane.columnIndex="3" GridPane.rowIndex="4" south="true" west="true"/>
+  <TileComponentImpl GridPane.columnIndex="4" GridPane.rowIndex="1" east="true"/>
+  <TileComponentImpl GridPane.columnIndex="4" GridPane.rowIndex="2" east="true" north="true"/>
+  <TileComponentImpl GridPane.columnIndex="4" GridPane.rowIndex="4" east="true" south="true"/>
+</GridPane>

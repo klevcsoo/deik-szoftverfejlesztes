@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+  alignment="CENTER" spacing="16" prefHeight="100"
+  xmlns="http://javafx.com/javafx" fx:controller="controllers.GameStateDisplayController">
+  <HBox spacing="16" alignment="CENTER">
+    <Text style="-fx-font-size: 18px" textAlignment="RIGHT" text="Moves: 0" fx:id="movesText"/>
+    <Button text="Reset board" fx:id="resetButton"/>
+  </HBox>
+  <Text style="-fx-font-size: 18px" textAlignment="RIGHT" text="No record." fx:id="recordText"/>
+  <padding>
+    <Insets bottom="16" left="24" right="24" top="16"/>
+  </padding>
+</VBox>

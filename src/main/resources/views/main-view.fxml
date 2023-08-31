@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<FlowPane xmlns:fx="http://javafx.com/fxml/1" hgap="8" prefWidth="550.0" alignment="CENTER"
+  vgap="8" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="controllers.MainController">
+  <!--suppress JavaFxUnresolvedFxIdReference -->
+  <fx:include GridPane.columnIndex="0" GridPane.rowIndex="0" source="board-view.fxml"
+    fx:id="board"/>
+  <!--suppress JavaFxUnresolvedFxIdReference -->
+  <fx:include GridPane.columnIndex="0" GridPane.rowIndex="1" source="game-state-display-view.fxml"
+    fx:id="gameStateDisplay"/>
+  <padding>
+    <Insets bottom="8" left="8" right="8" top="16"/>
+  </padding>
+</FlowPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" type="StackPane"
+  xmlns="http://javafx.com/javafx/19">
+  <AnchorPane prefHeight="100.0" prefWidth="100.0">
+    <Line endX="100" opacity="0" stroke="black" strokeWidth="8" fx:id="northernWall"/>
+    <Line endX="100" endY="100" opacity="0" startY="100" stroke="black" strokeWidth="8"
+      fx:id="southernWall"/>
+    <Line endY="100" opacity="0" stroke="black" strokeWidth="8" fx:id="westernWall"/>
+    <Line endX="100" endY="100" opacity="0" startX="100" stroke="black" strokeWidth="8"
+      fx:id="easternWall"/>
+  </AnchorPane>
+</fx:root>
